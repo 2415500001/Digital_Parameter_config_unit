@@ -13,6 +13,7 @@ void setup() {
         Serial.println('OLed not found');
         while (true);
     }
+    display.clearDisplay();
 // write your initialization code here
 }
 
