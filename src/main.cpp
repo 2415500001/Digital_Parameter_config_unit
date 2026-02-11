@@ -22,7 +22,7 @@ void setup() {
     display.println("Ardunio UNO R4");
     display.println("OLED with I2C");
     display.println("Hello World");
-
+display.display();
 }
 
 void loop() {
