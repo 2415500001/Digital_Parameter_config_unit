@@ -15,6 +15,8 @@ void setup() {
     }
     display.clearDisplay();
 // write your initialization code here
+    display.setTextColor(1);
+    display.setTextSize(SSD1306_WHITE);
 }
 
 void loop() {
