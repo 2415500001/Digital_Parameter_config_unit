@@ -6,7 +6,7 @@
 #define SCREEN_HEIGHT 64
 #define OLED_ADDRESS 0x3C
 
-
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_ADDRESS);
 void setup() {
 // write your initialization code here
 }
