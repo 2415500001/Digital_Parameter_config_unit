@@ -17,6 +17,12 @@ void setup() {
 // write your initialization code here
     display.setTextColor(1);
     display.setTextSize(SSD1306_WHITE);
+
+    display.setCursor(0,0);
+    display.println("Ardunio UNO R4");
+    display.println("OLED with I2C");
+    display.println("Hello World");
+
 }
 
 void loop() {
